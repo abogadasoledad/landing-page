@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abogada Soledad - Conocé Tus Derechos en Buenos Aires y CABA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #3a3a3a; /* Gris oscuro para texto principal por defecto */
+        }
+        /* Definición de colores personalizados para fácil referencia si fuera necesario */
+        :root {
+            --verde-petroleo: #2a4d4e;
+            --blanco: #ffffff;
+            --dorado-suave: #e8c27a;
+            --gris-oscuro: #3a3a3a;
+            --beige-claro: #f5f3ef;
+        }
+
+        .hero-bg {
+            background-color: var(--verde-petroleo); /* Verde petróleo para el fondo del hero */
+        }
+
+        .btn-cta {
+            background-color: var(--dorado-suave); /* Dorado suave para llamados a la acción */
+            color: var(--verde-petroleo); /* Texto en Verde Petróleo para contraste en CTA */
+            font-weight: 600; /* Semi-bold para CTAs */
+        }
+        .btn-cta:hover {
+            background-color: #d4af6a; /* Un tono de dorado suave más oscuro para hover */
+            color: var(--verde-petroleo);
+        }
+
+        .section-title-custom { /* Renombrado para evitar conflicto con clase de Tailwind si existiera */
+            border-bottom: 2px solid var(--dorado-suave); /* Dorado suave para subrayar títulos */
+            padding-bottom: 0.5rem;
+            display: inline-block;
+            color: var(--verde-petroleo); /* Títulos de sección en Verde Petróleo */
+        }
+
+        /* Iconos SVG dentro de los botones CTA */
+        .btn-cta svg {
+            stroke: var(--verde-petroleo); /* Iconos en Verde Petróleo */
+        }
+
+    </style>
+</head>
+<body class="bg-[var(--blanco)] text-[var(--gris-oscuro)]">
+
+    <header class="py-6 px-4 sm:px-6 lg:px-8 shadow-md bg-[var(--blanco)]">
+        <div class="container mx-auto text-center sm:text-left">
+            <h1 class="text-3xl font-bold text-[var(--verde-petroleo)]">Abogada Soledad</h1>
+            <p class="text-sm text-[var(--gris-oscuro)]">Estudio Juridico</p>
+        </div>
+    </header>
+
+    <section class="hero-bg py-16 sm:py-24 px-4 sm:px-6 lg:px-8 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-4xl sm:text-5xl font-bold text-[var(--blanco)] mb-4 uppercase">
+                Conoce Tus Derechos
+            </h2>
+            <p class="text-xl text-[var(--beige-claro)] mb-8 max-w-2xl mx-auto">
+                Te ayudo a conocer tus derechos para que puedas defenderlos mejor.
+                <br>Asesoramiento legal claro y simple en Capital Federal y Provincia de Buenos Aires.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="https://wa.me/5491134124269" target="_blank" rel="noopener noreferrer"
+                   class="btn-cta py-3 px-8 rounded-lg text-lg shadow-lg transform hover:scale-105 transition-transform duration-150 ease-in-out w-full sm:w-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.308 1.154a11.042 11.042 0 005.516 5.516l1.154-2.308a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                    Consulta por WhatsApp
+                </a>
+                <a href="https://www.instagram.com/abogadasoledad/" target="_blank" rel="noopener noreferrer"
+                   class="btn-cta py-3 px-8 rounded-lg text-lg shadow-lg transform hover:scale-105 transition-transform duration-150 ease-in-out w-full sm:w-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke-width="2">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                    Síguenos en Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-[var(--beige-claro)]">
+        <div class="container mx-auto">
+            <h3 class="section-title-custom text-3xl font-bold mb-12 text-center">Especializaciones</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-[var(--blanco)] p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h4 class="text-xl font-semibold text-[var(--verde-petroleo)] mb-2">Derecho Laboral</h4>
+                    <p class="text-[var(--gris-oscuro)]">Accidentes de trabajo (ART), despidos, trabajo no registrado (en negro), diferencias salariales.</p>
+                </div>
+                <div class="bg-[var(--blanco)] p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h4 class="text-xl font-semibold text-[var(--verde-petroleo)] mb-2">Accidentes de Tránsito</h4>
+                    <p class="text-[var(--gris-oscuro)]">Tuviste un choque? Podes reclamar indemnizaciones por lesiones o daños de tu vehículo.</p>
+                </div>
+                <div class="bg-[var(--blanco)] p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h4 class="text-xl font-semibold text-[var(--verde-petroleo)] mb-2">Sucesiones</h4>
+                    <p class="text-[var(--gris-oscuro)]">Gestoria, testamentos y división de bienes. Asesoramiento completo en juicio sucesorio.</p>
+                </div>
+                <div class="bg-[var(--blanco)] p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h4 class="text-xl font-semibold text-[var(--verde-petroleo)] mb-2">Divorcios</h4>
+                    <p class="text-[var(--gris-oscuro)]">Tramite de divorcios -de común acuerdo o unilaterales-, acuerdos sobre bienes, contacto con hijos y responsabilidad parental.</p>
+                </div>
+                <div class="bg-[var(--blanco)] p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h4 class="text-xl font-semibold text-[var(--verde-petroleo)] mb-2">Alimentos</h4>
+                    <p class="text-[var(--gris-oscuro)]">Reclamo de cuota alimentaria, ya sea para fijarla, aumentarla, disminuirla o cobrar lo que te deben.</p>
+                </div>
+                <div class="bg-[var(--blanco)] p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <h4 class="text-xl font-semibold text-[var(--verde-petroleo)] mb-2">Registro de Marcas</h4>
+                    <p class="text-[var(--gris-oscuro)]">Protejo tu marca: búsquedas para ver si está disponible, trámites de registro y renovación.</p>
+                </div>
+            </div>
+            <p class="text-center text-[var(--gris-oscuro)] mt-10 text-lg">
+                "Si tenes una consulta sobre otra área del derecho, no dudes en preguntar."
+            </p>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="bg-[var(--blanco)] py-16 sm:py-20 px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto text-center">
+            <h3 class="section-title-custom text-3xl font-bold mb-8">Mi Compromiso</h3>
+            <div class="max-w-3xl mx-auto">
+                <p class="text-lg text-[var(--gris-oscuro)] mb-4">
+                    Te ofrezco un asesoramiento legal <strong class="text-[var(--verde-petroleo)]">honesto, directo y enfocado</strong> en encontrar la mejor solución para vos. Entiendo tus preocupaciones y te voy a guiar en cada paso del proceso con un lenguaje que puedas entender fácilmente.
+                </p>
+                <p class="text-lg text-[var(--gris-oscuro)]">
+                    La <strong class="text-[var(--verde-petroleo)]">comunicación clara</strong> es fundamental para mí. Quiero que te sientas con la confianza de preguntar todo lo que necesites y que entiendas bien todas tus opciones.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 text-center bg-[var(--verde-petroleo)]">
+        <div class="container mx-auto">
+            <h3 class="section-title-custom text-3xl font-bold mb-8 !text-[var(--blanco)] !border-[var(--dorado-suave)]">Hablemos de Tu Situación</h3>
+            <p class="text-xl text-[var(--beige-claro)] mb-6 max-w-2xl mx-auto">
+                Si tenés dudas o necesitás asesoramiento legal en Capital Federal o Provincia de Buenos Aires, estoy para ayudarte.
+                <br>Envíame tu consulta por WhatsApp o seguime en Instagram.
+            </p>
+            <p class="text-lg text-[var(--beige-claro)] mb-8 max-w-2xl mx-auto">
+                La atención puede ser <strong class="text-[var(--dorado-suave)]">virtual</strong> o <strong class="text-[var(--dorado-suave)]">presencial</strong> en Canning o Lomas de Zamora.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 mb-8">
+                 <a href="https://wa.me/5491134124269" target="_blank" rel="noopener noreferrer"
+                   class="btn-cta py-3 px-8 rounded-lg text-lg shadow-lg transform hover:scale-105 transition-transform duration-150 ease-in-out w-full sm:w-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.308 1.154a11.042 11.042 0 005.516 5.516l1.154-2.308a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                    Chatea por WhatsApp
+                </a>
+                <a href="https://www.instagram.com/abogadasoledad/" target="_blank" rel="noopener noreferrer"
+                   class="btn-cta py-3 px-8 rounded-lg text-lg shadow-lg transform hover:scale-105 transition-transform duration-150 ease-in-out w-full sm:w-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke-width="2">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                    Ver Instagram
+                </a>
+            </div>
+            <p class="text-[var(--beige-claro)] text-lg">
+                <strong>Email:</strong> <a href="mailto:consultas@abogadasoledad.com" class="text-[var(--dorado-suave)] hover:underline">consultas@abogadasoledad.com</a>
+            </p>
+            <p class="text-[var(--beige-claro)] opacity-80 mt-4">
+                Servicios Legales en Capital Federal y Provincia de Buenos Aires.
+            </p>
+        </div>
+    </section>
+
+    <footer class="bg-[var(--gris-oscuro)] text-[var(--beige-claro)] py-8 px-4 sm:px-6 lg:px-8 text-center">
+        <div class="container mx-auto">
+            <p>&copy; <span id="currentYear"></span> Abogada Soledad. Todos los derechos reservados.</p>
+            <p class="text-sm opacity-80">Diseño web orientativo. Sitio principal en <a href="https://abogadasoledad.com" class="hover:text-[var(--dorado-suave)] underline">abogadasoledad.com</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Script para obtener el año actual para el footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
